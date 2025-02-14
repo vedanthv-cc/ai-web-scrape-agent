@@ -1,0 +1,9 @@
+duckduckgo-search==7.3.2
+streamlit
+playwright
+pytesseract
+langgraph
+langchain_openai
+langchain_core
+langchain
+python-dotenv
