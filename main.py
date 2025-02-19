@@ -45,7 +45,7 @@ if "authentication_status" not in st.session_state:
 # If not authenticated, show the login form
 if st.session_state["authentication_status"] is not True:
     st.title("🔒 Login to Access News Extractor")
-    login_result = authenticator.login('main', fields={'Form name': 'custom_form_name'})
+    login_result = authenticator.login('main', fields={'Form name': 'Login'})
     if login_result is not None:
         name, authentication_status, username = login_result
         if authentication_status:
